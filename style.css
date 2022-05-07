@@ -19,44 +19,50 @@ button{
 #main   {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    margin: 20px;
+    justify-content: center;
+    margin-top: 20px;
 }
 #left-side  {
-    width: 800px;
+    width: 650px;
 }
 #profile-card   {
-    width: 700px;
+    width: 500px;
     border: 1px solid black;
-    margin: 0px 20px 20px 0px;
+    margin: 0px 20px 20px 100px;
 }
 #blue   {
-    width: 700px;
-    height: 70px;
+    width: 500px;
+    height: 90px;
     background-color: teal;
 }
 #education  {
-    width: 700px;
+    width: 485px;
     border: 1px solid black;
+    padding: 10px;
+    margin: 0px 20px 0px 100px;
 }
 #ed-top {
-    width: 700px;
+    width: 485px;
     height: 50px;
     background-color: black;
     border: 1px solid black;
+    color: white;
+    padding: 10px;
+    margin: 0px 20px 0px 100px;
 }
 #right-side {
     width: 300px;
 }
 #request-top, #connections-top    {
-    width: 300px;
-    height: 30px;
+    width: 275px;
+    height: 50px;
     background-color: black;
     color: white;
     border: 1px solid black;
+    padding: 10px;
 }
 #request-bottom, #connections-bottom {
-    width: 300px;
+    width: 295px;
     border: 1px solid black;
     margin-bottom: 20px;
 }
@@ -70,4 +76,36 @@ button{
     flex-direction: row;
     /* padding: 5px; */
     justify-content: flex-start;
+}
+#map-marker, #gear-icon {
+    height: 30px;
+    margin: 10px;
+}
+#location  {
+    display: flex;
+    flex-direction: row;
+}
+#info  {
+    margin: 0px 10px 0px 10px;
+}
+h2 {
+    margin-left: 10px;
+}
+#edit-profile   {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.accept-reject  {
+    height: 35px;
+    padding: 5px;
+}
+.request-person {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+#more   {
+    padding: 10px;
 }
