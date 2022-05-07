@@ -46,20 +46,20 @@
             <div id="requests">
                 <div id="request-top">Connection Requests</div>
                 <div id="request-bottom">
-                    <div class="request-person">
+                    <div class="request-person" onClick="hide(this)">
                         <img src="user-circle.png" alt="profile circle" class="profile-circle">
                         <p>Boz Borrer</p>
                         <div>
-                            <img src="accept-circle.png" alt="check mark" class="accept-reject">
-                            <img src="close-circle.png" alt="reject" class="accept-reject">
+                            <img src="accept-circle.png" alt="check mark" class="accept-reject" >
+                            <img src="close-circle.png" alt="reject" class="accept-reject" >
                         </div>
                     </div>
-                    <div class="request-person">
+                    <div class="request-person" onClick="hide(this)">
                         <img src="user-circle.png" alt="profile circle" class="profile-circle">
                         <p>Johnny Marr</p>
                         <div>
-                            <img src="accept-circle.png" alt="check mark" class="accept-reject">
-                            <img src="close-circle.png" alt="reject" class="accept-reject">
+                            <img src="accept-circle.png" alt="check mark" class="accept-reject" onClick="hide(this)">
+                            <img src="close-circle.png" alt="reject" class="accept-reject" onClick="hide(this)">
                         </div>
                     </div>
                 </div>
@@ -77,5 +77,6 @@
             </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
