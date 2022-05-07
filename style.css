@@ -4,11 +4,13 @@ nav {
     justify-content: space-around;
     background-color: black;
     color: white;
+    width: 100%;
 }
 #nav-end    {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    align-items: flex-end;
     padding: 10px;
 }
 button{
@@ -36,13 +38,13 @@ button{
     background-color: teal;
 }
 #education  {
-    width: 485px;
+    width: 500px;
     border: 1px solid black;
     padding: 10px;
     margin: 0px 20px 0px 100px;
 }
 #ed-top {
-    width: 485px;
+    width: 500px;
     height: 50px;
     background-color: black;
     border: 1px solid black;
@@ -54,7 +56,7 @@ button{
     width: 300px;
 }
 #request-top, #connections-top    {
-    width: 275px;
+    width: 295px;
     height: 50px;
     background-color: black;
     color: white;
